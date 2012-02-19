@@ -1,4 +1,3 @@
-
 package DJabberd::Authen::MySQL;
 use strict;
 use base 'DJabberd::Authen';
@@ -17,6 +16,10 @@ DJabberd::Authen::MySQL - A MySQL authentication module for DJabberd
 =head1 VERSION
 
 Version 0.20
+
+=cut
+
+our $VERSION = '0.20';
 
 =head1 SYNOPSIS
 
